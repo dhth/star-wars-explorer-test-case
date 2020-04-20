@@ -1,0 +1,94 @@
+// $css-debug: true;
+$css-debug: false;
+
+table {
+border-spacing: 0;
+border: 1px solid black;
+
+tr {
+    :last-child {
+    td {
+        border-bottom: 0;
+    }
+    }
+}
+
+th,
+td {
+    margin: 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+
+    :last-child {
+    border-right: 0;
+    }
+}
+}
+
+
+// table styles
+table{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  overflow: hidden;
+  
+  th{
+    color: white;
+  }
+ td, th{
+    border-top: 1px solid #343a40d4;
+    padding: 10px;
+  }
+  
+  td{
+    border-left: 1px solid #343a40d4;
+    border-right: 1px solid #343a40d4;
+  }
+  
+  th{
+    background-color: #343a40d4;
+  }
+  
+  tr:nth-of-type(even) td{
+    background-color: lighten(#343a40d4, 65%);
+    // color: white;
+  }
+  
+  .total{
+    th{
+      background-color: white;
+    }
+    
+    td{
+      text-align: right;
+      font-weight: 700;
+    }
+  }
+}
+
+.actionButton{
+  margin-bottom: 10px;
+}
+
+.loadMoreButton{
+  margin-top: 10px;
+}
+
+.filterButton{
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.spinner{
+  margin-left: 10px;
+}
+
+.mainContainer{
+  margin-top: 10px;
+}
+
+small{
+  color: white;
+}

@@ -1,0 +1,12 @@
+Django==3.0.5
+django-cors-headers==3.2.1
+gunicorn==19.9.0
+psycopg2-binary==2.8.3
+aiohttp~=3.6.2
+petl~=1.3.0
+requests==2.22.0
+pytest==5.3.2
+pytest-cov~=2.8.1
+flake8~=3.7.9
+black~=19.10b0
+isort~=4.3.21
